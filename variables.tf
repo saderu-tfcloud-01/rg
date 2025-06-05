@@ -1,6 +1,8 @@
 variable "rg_name" {
   description = "this is to provide the rg name"
+  type = string
 }
 variable "rg_location" {
-  descriptio = "this is for rg location"
+  description = "this is for rg location"
+  type = string
 }
