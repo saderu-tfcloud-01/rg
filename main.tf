@@ -18,6 +18,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "test" {
-  name = "test-rg01"
-  location = "eastus"
+  name = var.rg_name
+  location = var.rg_location
 }
